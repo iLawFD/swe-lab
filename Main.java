@@ -1,7 +1,7 @@
 package swelab;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hellwo!");
+        System.out.println("Hello!");
 
     }
 
