@@ -13,7 +13,7 @@ public class Main {
     public static void sort1(int[] ar) {
         Selectionsort(ar);
     }
-    public static void sort2 int[] ar) {
+    public static void sort2 (int[] ar) {
                 Selectionsort(ar);
     }
 
