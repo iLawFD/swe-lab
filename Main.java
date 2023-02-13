@@ -5,7 +5,7 @@ public class Main {
     }
 
 
-    void sort(int arr[])
+    void Selectionsort(int arr[])
     {
         int n = arr.length;
 
