@@ -1,19 +1,21 @@
-
 public class Main {
     public static void main(String[] args) {
         int [] arr = {5,2,12,12,1};
+        sortInsertion(arr);
         sort(arr);
 
         for(int i=0;i<arr.length;++i){
-          System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
     }
 
-    public static void sort(int [] sort_arr){
 
-      sortInsertion(sort_arr);
+    public static void sort(int[] ar) {
+        Selectionsort(ar);
+
     }
-    void Selectionsort(int arr[])
+
+    public static void Selectionsort(int arr[])
     {
         int n = arr.length;
 
@@ -37,19 +39,19 @@ public class Main {
     public static void sortInsertion(int [] sort_arr){
 
         for(int i=0;i<sort_arr.length;++i){
-  
-          int j = i;
-          
-          while(j > 0 && sort_arr[j-1]>sort_arr[j]){
-  
-            int key = sort_arr[j];
-            sort_arr[j] = sort_arr[j-1];
-            sort_arr[j-1] = key;
-            j = j-1; 
-  
-          }
+
+            int j = i;
+
+            while(j > 0 && sort_arr[j-1]>sort_arr[j]){
+
+                int key = sort_arr[j];
+                sort_arr[j] = sort_arr[j-1];
+                sort_arr[j-1] = key;
+                j = j-1;
+
+            }
         }
-      }
+    }
     // Prints the array
     void printArray(int arr[])
     {
@@ -59,4 +61,3 @@ public class Main {
         System.out.println();
     }
 }
-
