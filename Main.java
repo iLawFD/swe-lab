@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         int [] arr = {5,2,12,12,1};
         sortInsertion(arr);
-        sort(arr);
+        sort1(arr);
 
         for(int i=0;i<arr.length;++i){
             System.out.print(arr[i] + " ");
@@ -10,10 +10,13 @@ public class Main {
     }
 
 
-    public static void sort(int[] ar) {
-        sortInsertion(ar);
-
+    public static void sort1(int[] ar) {
+        Selectionsort(ar);
     }
+    public static void sort2 int[] ar) {
+                Selectionsort(ar);
+    }
+
 
     public static void Selectionsort(int arr[])
     {
